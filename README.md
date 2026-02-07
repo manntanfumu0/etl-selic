@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 📊 ETL SELIC – Engenharia de Dados
 
@@ -108,6 +106,19 @@ Automação de ETL com Python
 Versionamento de projetos com Git
 
 
+🔮 Próximos Passos
+
+Automatizar o pipeline com agendamento
+
+Persistir dados em banco de dados (PostgreSQL)
+
+Criar visualizações (Power BI ou Python)
+
+Implementar testes de qualidade de dados
+
+Containerizar o projeto com Docker
+
+
 👨‍💻 Autor
 
 Manuel Filipe Ntanfumu
@@ -117,3 +128,4 @@ Foco em Engenharia de Dados e Análise de Dados
 📍 Brasil | Angola
 🔗 GitHub: https://github.com/manntanfumu0
 Organização profissional de repositórios de dados
+
