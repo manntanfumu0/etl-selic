@@ -1,0 +1,121 @@
+# 📊 ETL SELIC – Engenharia de Dados
+
+Este projeto implementa um **pipeline de dados (ETL)** para coletar, transformar e organizar dados da **taxa SELIC**, seguindo boas práticas de Engenharia de Dados.
+
+O objetivo é demonstrar, na prática, como estruturar um projeto de dados real, desde a extração até a transformação dos dados, com organização de pastas, versionamento e código limpo.
+
+---
+
+## 🚀 Objetivo do Projeto
+
+- Extrair dados da taxa SELIC a partir de uma fonte pública
+- Transformar os dados para um formato limpo e estruturado
+- Organizar os dados seguindo o padrão **raw → processed**
+- Criar uma base sólida para consumo analítico futuro
+- Servir como projeto de portfólio para área de **Data Engineering / Data Analytics**
+
+---
+
+## 🧱 Estrutura do Projeto
+
+etl_selic/
+│
+├── data/
+│ ├── raw/ # Dados brutos extraídos da fonte
+│ └── processed/ # Dados tratados e prontos para análise
+│
+├── src/
+│ ├── extract.py # Extração dos dados
+│ ├── transform.py # Transformação dos dados
+│ └── load.py # (Opcional) Carga dos dados
+│
+├── README.md # Documentação do projeto
+└── requirements.txt # Dependências do projeto
+
+
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Python 3**
+- **Pandas**
+- **Requests**
+- **Git & GitHub**
+- Conceitos de **ETL / ELT**
+- Organização de projetos de dados
+
+---
+
+
+
+### 1️⃣ Clone o repositório
+```bash
+git clone https://github.com/manntanfumu0/etl-selic.git
+cd etl-selic
+
+
+2️⃣ Crie e ative o ambiente virtual (opcional)
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+
+3️⃣ Instale as dependências
+pip install -r requirements.txt
+
+4️⃣ Execute o pipeline
+
+Extração
+python src/extract.py
+
+
+Transformação
+python src/transform.py
+
+Os dados brutos ficarão em:
+data/processed/
+
+
+📈 Exemplo de Saída
+
+Após a transformação, os dados seguem um formato estruturado, como:
+
+data	valor
+2016-02-01	14.25
+2016-03-01	14.15
+
+🧠 Aprendizados com o Projeto
+
+Estruturação de pipelines de dados
+
+Separação entre dados brutos e processados
+
+Uso de Python para automação de ETL
+
+Versionamento de código com Git
+
+Organização profissional de repositórios de dados
+
+
+Próximos Passos (Evoluções)
+
+Automatizar o pipeline com agendamento
+
+Salvar os dados em banco de dados (PostgreSQL)
+
+Criar visualizações no Power BI ou Python
+
+Implementar testes de qualidade de dados
+
+Containerizar o projeto com Docker
+
+
+👨‍💻 Autor
+
+Manuel Filipe D'Alfome
+Estudante de Tecnologia da Informação
+Foco em Engenharia de Dados e Análise de Dados
+
+📍 Brasil | Angola
+🔗 GitHub: https://github.com/manntanfumu0
