@@ -33,6 +33,7 @@ etl_selic/
 └── requirements.txt
 
 
+---
 
 🛠 Tecnologias
 
@@ -47,6 +48,7 @@ Git & GitHub
 Conceitos de ETL / ELT
 
 
+---
 
 ▶️ Execução
 
@@ -62,11 +64,14 @@ Dados brutos: data/raw/
 Dados processados: data/processed/
 
 
+
 📊 Exemplo de Resultado
 data	valor
 2016-02-01	14.25
 2016-03-01	14.15
 
+
+---
 
 🧠 Principais Aprendizados
 
@@ -76,6 +81,8 @@ data	valor
 - Automação com Python
 - Versionamento com Git
 
+---
+
 🚀 Próximas Evoluções
 
 * Persistência em banco de dados (PostgreSQL)
@@ -83,6 +90,9 @@ data	valor
 * Testes de qualidade de dados
 * Visualização analítica
 * Dockerização
+
+---
+
 
 👤 Autor
 
@@ -92,3 +102,4 @@ Foco em Engenharia de Dados e Análise de Dados
 
 📍 Brasil | Angola
 🔗 GitHub: https://github.com/manntanfumu0
+
