@@ -34,6 +34,20 @@ etl_selic/
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -119,3 +133,4 @@ Foco em Engenharia de Dados e Análise de Dados
 
 📍 Brasil | Angola
 🔗 GitHub: https://github.com/manntanfumu0
+
